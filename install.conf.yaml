@@ -1,3 +1,14 @@
 - clean: []
-- link: {}
-- shell: []
+- link:
+    ~/.config/ags: hyprland-conf/.config/ags
+    ~/.config/btop: hyprland-conf/.config/btop
+    ~/.config/fastfetch: hyprland-conf/.config/fastfetch
+    ~/.config/hypr: hyprland-conf/.config/hypr
+    ~/.config/kitty: hyprland-conf/.config/kitty
+    ~/.config/wallpapers: hyprland-conf/.config/wallpapers
+    ~/.icons: hyprland-conf/.icons
+    ~/.p10k.zsh: hyprland-conf/.p10k.zsh
+    ~/.zshrc: hyprland-conf/.zshrc
+    ~/.gitconfig: .gitconfig
+- shell:
+  - ./hyprland-conf-remotes.sh

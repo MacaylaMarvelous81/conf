@@ -1,0 +1,10 @@
+[user]
+	email = jomarm@jomarm.com
+	name = Jomar Milan
+	signingkey = F954C5C95AE7A312183DA76C6AC46A6F9A5618D8
+[commit]
+	gpgsign = true
+[tag]
+	forcesignannotated = true
+[init]
+	defaultbranch = master
