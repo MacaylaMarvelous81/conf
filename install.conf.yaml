@@ -10,6 +10,6 @@
     ~/.p10k.zsh: hyprland-conf/.p10k.zsh
     ~/.zshrc: hyprland-conf/.zshrc
     ~/.gitconfig: .gitconfig
-    ~/.config/nvim: nvim-config
+    ~/.config/nvim: astronvim
 - shell:
   - ./submodule-remotes.sh
