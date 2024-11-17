@@ -2,9 +2,6 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
-[submodule "hyprland-conf"]
-	path = hyprland-conf
-	url = https://github.com/MacaylaMarvelous81/hyprland-conf
 [submodule "astronvim"]
 	path = astronvim
 	url = https://github.com/MacaylaMarvelous81/astronvim
