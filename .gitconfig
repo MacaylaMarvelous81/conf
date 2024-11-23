@@ -8,3 +8,5 @@
 	forcesignannotated = true
 [init]
 	defaultbranch = master
+[diff "json"]
+	textconv = jq .
