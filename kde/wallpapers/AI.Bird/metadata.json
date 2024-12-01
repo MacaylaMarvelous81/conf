@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio.gm@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Id": "AI.Bird",
+        "License": "CC-BY-SA-4.0",
+        "Name": "AI Bird",
+        "Name[x-test]": "xxAIBirdxx"
+        }
+    }
+

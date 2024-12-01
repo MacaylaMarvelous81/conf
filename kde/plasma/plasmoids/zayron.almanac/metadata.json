@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "zayronxio"
+            }
+        ],
+        "Name": "Almanac",
+        "Id": "zayron.almanac",
+        "Description": "shows the day of the week, the current month and the day in number format, all in a short format",
+        "Category": "Utilities",
+        "Icon": "calendar",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "2.0",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
