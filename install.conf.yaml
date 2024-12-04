@@ -1,11 +1,32 @@
 - clean: []
 - link:
-    ~/.gitconfig: .gitconfig
-    ~/.config/nvim: astronvim
-    ~/.config/gtk-3.0: kde/gtk-3.0
-    ~/.config/gtk-4.0: kde/gtk-4.0
-    ~/.local/share/plasma: kde/plasma
-    ~/.local/share/color-schemes: kde/color-schemes
-    ~/.local/share/aurorae: kde/aurorae
-    ~/.local/share/icons: kde/icons
-    ~/.local/share/wallpapers: kde/wallpapers
+  ~/.gitconfig: .gitconfig
+  ~/.config/nvim: astronvim
+  ~/.config/gtk-3.0:
+    if: command -v plasma_session
+    force: true
+    path: kde/gtk-3.0
+  ~/.config/gtk-4.0:
+    if: command -v plasma_session
+    force: true
+    path: kde/gtk-4.0
+  ~/.local/share/plasma:
+    if: command -v plasma_session
+    force: true
+    path: kde/plasma
+  ~/.local/share/color-schemes:
+    if: command -v plasma_session
+    force: true
+    path: kde/color-schemes
+  ~/.local/share/aurorae:
+    if: command -v plasma_session
+    force: true
+    path: kde/aurorae
+  ~/.local/share/icons:
+    if: command -v plasma_session
+    force: true
+    path: kde/icons
+  ~/.local/share/wallpapers:
+    if: command -v plasma_session
+    force: true
+    path: kde/wallpapers
