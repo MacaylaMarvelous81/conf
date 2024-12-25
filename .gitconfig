@@ -10,3 +10,10 @@
 	defaultbranch = master
 [diff "json"]
 	textconv = jq .
+[sendemail]
+	smtpserver = smtp.emailarray.com
+	smtpuser = jomarm@jomarm.com
+	smtpencryption = ssl
+	smtpserverport = 465
+[core]
+	editor = nvim
