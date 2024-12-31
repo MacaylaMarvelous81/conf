@@ -3,3 +3,11 @@
     ~/.gitconfig: .gitconfig
     ~/.config/nvim: astronvim
     ~/.config/plasma-workspace: plasma-workspace
+    ~/.config/psd: psd
+    ~/.config/user-tmpfiles.d: user-tmpfiles.d
+    ~/Downloads:
+      path: /tmp/${USER}_downloads
+      if: '[ -d /run/systemd/system ]'
+      ignore-missing: true
+- shell:
+  - [ ./systemd.sh, Setting up systemd services ]
